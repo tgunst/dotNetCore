@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "u2G+kJR+vw3AWyVEZ/EYIIIdX157cz6WMZj6diPT9YbVdlmBVaoIBuPb4sbXn+G8hPoZOcLdS2LEu8kwUULxxw==",
+  "dgSpecHash": "g3tIphbFTbILLz+U9gfOEsduofbdlI17LZv58uxtxMPfKZb/ApJll0olugDAh71ZPgHb7fSA2XISyfWc5/voMQ==",
   "success": true,
-  "projectFilePath": "C:\\Git\\dotNetCore\\AspNetCoreWebApp1\\AspNetCoreWebApp1\\AspNetCoreWebApp1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/workspaces/dotNetCore/AspNetCoreWebApp1/AspNetCoreWebApp1/AspNetCoreWebApp1.csproj",
+  "expectedPackageFiles": [
+    "/var/nuget/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/var/nuget/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/var/nuget/microsoft.netcore.app.host.linux-x64/3.1.13/microsoft.netcore.app.host.linux-x64.3.1.13.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -8,39 +8,29 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\tgunst\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/var/nuget": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\dotNetCore\\AspNetCoreWebApp1\\AspNetCoreWebApp1\\AspNetCoreWebApp1.csproj",
+      "projectUniqueName": "/workspaces/dotNetCore/AspNetCoreWebApp1/AspNetCoreWebApp1/AspNetCoreWebApp1.csproj",
       "projectName": "AspNetCoreWebApp1",
-      "projectPath": "C:\\Git\\dotNetCore\\AspNetCoreWebApp1\\AspNetCoreWebApp1\\AspNetCoreWebApp1.csproj",
-      "packagesPath": "C:\\Users\\tgunst\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\dotNetCore\\AspNetCoreWebApp1\\AspNetCoreWebApp1\\obj\\",
+      "projectPath": "/workspaces/dotNetCore/AspNetCoreWebApp1/AspNetCoreWebApp1/AspNetCoreWebApp1.csproj",
+      "packagesPath": "/var/nuget",
+      "outputPath": "/workspaces/dotNetCore/AspNetCoreWebApp1/AspNetCoreWebApp1/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\tgunst\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/daimler/DOTAzure/_packaging/DOTAzure/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/tgtest0001/myPrivate0001/_packaging/tgtest0001-allAADusers/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -52,6 +42,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -62,6 +53,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[3.1.13, 3.1.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -70,7 +75,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/dotnet/5.0.104/sdk/5.0.104/RuntimeIdentifierGraph.json"
       }
     }
   }
